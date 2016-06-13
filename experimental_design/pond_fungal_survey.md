@@ -11,7 +11,7 @@ The lab leaf decomposition experiment (CPOM_Flux) found the that there was an un
 ## Field Procedure
 ### Littoral (3 samples)
 
-1. Use the Hess sampler to delimit a section of the littoral sediments.
+1. Use the stovepipe sampler  (10.2 cm diameter) to delimit a section of the littoral sediments.
 
 2. Remove all leaf material from the sampler.
 
@@ -72,6 +72,22 @@ The lab leaf decomposition experiment (CPOM_Flux) found the that there was an un
 
 ## Lab Procedure
 
-1. Punch a no. 5 leaf disc from each of the representative leaf samples from each core and preserve in 10 ml of MeOH and seal with parafilm and place in the freezer.
+1. Punch 2 no. 5 leaf disc from each of the representative leaf samples from each core 
 
-2. Add 10 ml of MeOH to the sediment samples in the cooler, seal with parafilm and place in freezer.
+2. Preserve 1 disc in 10 ml of MeOH and seal with parafilm and place in the freezer.
+
+3. Dry the other disc in a pre-weighed small crucuble for AFDM.
+
+4. Add 10 ml of MeOH to the sediment samples in the cooler, seal with parafilm and place in freezer.
+
+## Other Samples
+
+1. YSI Profile
+
+2. 1 L of epilimnetic water and 1 L of hypolimnetic water for:
+  * Chl
+  * pH
+  * DOC
+  * Spec Scans
+
+3. Secci depth
