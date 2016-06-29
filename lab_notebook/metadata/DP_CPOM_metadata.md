@@ -25,6 +25,16 @@ This data was collected from the sediment cores to determine the amount of CPOM
   
 * Date = the date the field sampling was completed (YYYY-MM-DD)
 
+* CPOM.Type = the type of site the core was taken from
+  * O = Open water
+  * NL = Near littoral 
+  
+* CPOM.Core = the letter that was assigned to the core sample 
+
+* Z = how much was sampled from the core (cm)
+
+* SedDepth = the starting depth of the core that was sampled (cm) 
+
 * VialNum = the number vial that was used for the sample
 
 * VialMass = the weight of the vial (g)

@@ -25,6 +25,17 @@ This data was collected from the sediment cores to determine the amount of OM
   
 * Date = the date the field sampling was completed (YYYY-MM-DD)
 
+* OM.Type = the type of site the core was taken from
+  * O = Open water
+  * NL = Near littoral 
+  * L = Littoral
+  
+* OM.Core = the letter that was assigned to the core sample 
+
+* Z = how much was sampled from the core (cm)
+
+* SedDepth = the starting depth of the core that was sampled (cm) 
+
 * VialNum = the number vial that was used for the sample
 
 * VialMass = the weight of the vial (g)
