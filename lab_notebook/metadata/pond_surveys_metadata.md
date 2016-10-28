@@ -10,6 +10,9 @@ pH was measured in the lab on samples collected in the field with a acumet AB15 
 
 light was measured with a LiCor 2-pi underwater cell
 
+
+Prior to 20 Oct 2016 Chlorophyll was measure by collecting a
+
 ## Data File 
 
 * 'pond_surveys.csv'
