@@ -2,7 +2,7 @@
 
 ## File
 
-`DP_CPOM.csv`
+`DP_CPOM_LOI.csv`
 
 ## Metadata
 
@@ -16,7 +16,6 @@
 
 ### Description
 
-This data was collected from the sediment cores to determine the amount of CPOM
 
 ## Variables
 
