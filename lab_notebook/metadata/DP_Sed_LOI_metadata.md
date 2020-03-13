@@ -18,9 +18,15 @@
 
 The data used to determine the LOI for the sediments collected from Daulton Pond.  The detailed sampling notes can be found in [https://github.com/KennyPeanuts/pond_surveys/blob/master/lab_notebook/lab_notes/Daulton_Pond_Sampling_14Jun2016.md](https://github.com/KennyPeanuts/pond_surveys/blob/master/lab_notebook/lab_notes/Daulton_Pond_Sampling_14Jun2016.md).
 
-Briefly, cores were collected with a KP corer at each site. The cores were extruded upwards in 1 cm increments and then sliced into a 1 mm sieve. Any material that was retained by the sieve was considered CPOM and was transferred to a 20 ml glass scintillation vial and then dried at 50 dC. The sediment that passed through the sieve was collected in another 20 ml glass scintillation vial and dried at 50 dC. 
+Briefly:
+
+For the open (O) and near-littoral (NL) sites, cores (4.7 cm diam.) were collected with a KP corer at each site. The cores were extruded upwards in 1 cm increments and then sliced into a 1 mm sieve. Any material that was retained by the sieve was considered CPOM and was transferred to a 20 ml glass scintillation vial and then dried at 50 dC. The sediment that passed through the sieve was collected in another 20 ml glass scintillation vial and dried at 50 dC. 
+
+For the Littoral (L) sites, 
 
 Following the determination of dry mass, the sediments and CPOM were ashed for 5 h at 550 dC and AFDM was determined as the difference between the mass of the dry sample and the mass of the ash.
+
+NOTE: Only the sediment data are recorded in this file. The CPOM data are found in [https://github.com/KennyPeanuts/pond_surveys/blob/master/lab_notebook/data/DP_CPOM_LOI.csv](https://github.com/KennyPeanuts/pond_surveys/blob/master/lab_notebook/data/DP_CPOM_LOI.csv) and [
 
 ## Variables
 
