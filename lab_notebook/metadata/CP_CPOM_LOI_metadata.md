@@ -26,6 +26,10 @@ Following the determination of dry mass, the sediments and CPOM were ashed for 5
 
 NOTE: Only the open CPOM data are recorded in this file. The sediment data are found in [
 
+## Issue with the raw data
+  
+  
+
 ## Variables
 
 * Pond = the abbreviation for the pond name
@@ -71,10 +75,10 @@ NOTE: Only the open CPOM data are recorded in this file. The sediment data are f
     CPOMCore <- c(rep("A", 6), rep("B", 6), rep("C", 6))
     Z <- rep(c(1, 1, 1, 1, 2, 2), 3)
     SedDepth <- rep(c(0, 1, 2, 3, 4, 6), 3) 
-    VialNum <- c("I1", "I2", "I3", "I4", "I5", "I7", "I6", "I8", "I9", "I10", "H1", "H2", "H3", "H4", "H5", "H6", "H7", "H8")
-    VialMass <- c(13.2450, 13.3085, 13.0982, 13.1722, 13.3487, 13.3626, 13.1921, 13.3382, 13.2517, 13.3030, 13.4048, 13.3808, 13.1076, 12.3945, 13.1713, 13.2380, 13.4421, 13.2276)
-    VialDryCPOM <- c(13.3181, 13.3776, 13.2608, 13.4532, 13.6597, 13.3635, 13.1942, 13.5257, 13.4134, 13.5109, 13.6437, 13.5499, 13.1106, 13.3969, 13.1770, 13.2989, 13.6063, 13.9549)
-    VialAM <- c(13.2812, 13.3242, 13.1689, 13.2347, 13.4289, 13.3642, 13.1932, 13.3799, 13.2947, 13.3746, 13.4547, 13.4101, 13.1096, 13.3956, 13.1693, 13.2545, 13.4754, 13.3541)
+    VialNum <- c(NA, "I1", "I2", "I3", "I4", "I5", "I7", "I8", "I9", "I10", "H1", "H2", "H3", "H4", "H5", "H6", "H7", "H8")
+    VialMass <- c(NA, 13.2450, 13.3085, 13.0982, 13.1722, 13.3487, 13.1921, 13.3382, 13.2517, 13.3030, 13.4048, 13.3808, 13.1076, 13.3945, 13.1713, 13.2380, 13.4421, 13.2276)
+    VialDryCPOM <- c(NA, 13.3181, 13.3776, 13.2608, 13.4532, 13.6597, 13.1942, 13.5257, 13.4134, 13.5109, 13.6437, 13.5499, 13.1106, 13.3969, 13.1770, 13.2989, 13.6063, 13.9549)
+    VialAM <- c(NA, 13.2812, 13.3242, 13.1689, 13.2347, 13.4289, 13.1932, 13.3799, 13.2947, 13.3746, 13.4547, 13.4101, 13.1096, 13.3956, 13.1693, 13.2545, 13.4754, 13.3541)
     CoreDiam <- 4.7
    
 ### Calculated Variables 
@@ -84,4 +88,12 @@ NOTE: Only the open CPOM data are recorded in this file. The sediment data are f
     CPOMAFDM <- CPOMDryMass - CPOMAshMass
     CoreArea <- pi * ((CoreDiam * 0.5)^2) 
     CPOMAFDMStandingStock <- (CPOMAFDM / CoreArea) * 10000 # multiplication by 10000 coverts from cm-2 to m-2
+    
+### Create Data Frame
+    
+    litter <- data.frame(Pond, Date, CPOMType, CPOMCore, Z, SedDepth, VialNum, VialMass, VialDryCPOM, VialAM, CPOMDryMass, CPOMAshMass, CPOMAFDM, CPOMAFDMStandingStock, CoreDiam, CoreArea)
+    
+## Make Data File
+    
+    write.table(litter, "./data/CP_CPOM_LOI.csv", quote = F, row.names = F, sep = ",")
     
