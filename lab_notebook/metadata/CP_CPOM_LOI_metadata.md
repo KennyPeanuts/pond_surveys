@@ -27,8 +27,27 @@ Following the determination of dry mass, the sediments and CPOM were ashed for 5
 NOTE: Only the open CPOM data are recorded in this file. The sediment data are found in [
 
 ## Issue with the raw data
+### Description of the issue with Vial "I6"
   
-  
+In the field notebook the notes indicated that there was no CPOM sample taken from the 0-1 cm depth of Open Core A. The first CPOM sample was taken at 1-2 cm and this was placed in Vial "I1".  The field notebook also indicated that no sample was placed into Vial "I6" and that the first CPOM sample from Open Core B (0-1 cm) was placed into Vial "I7". 
+
+In the lab notebook the is a sample recorded for Vial "I6" and it is recorded in the order of the vials (i.e., ...I5, I6, I7...), so that it is not clear what the correct order of the samples should be.
+
+#### Investigation of the data
+
+The dry mass of sample in Vial "I6" was 0.0009 g, which is an order of magnitude lower than the next lowest sample ("I7" = 0.0021 g). Furthermore, the ash mass of the sample in "I6" was greater than the dry mass of the sample, resulting in an AFDM of -0.0007 g. Finally, the pattern of the data indicates that the mass of sample "I7" would be appropriate for the 0-1 cm sample in core 2. 
+
+#### Action taken for the issue with I6
+
+Given the irregularities in the mass values in Vial "I6" and the fact that Vial "I6" was not supposed to exist, I have removed the Vial "I6" sample from the data set.
+
+### Description of the issue with Vial "H4"
+
+The Vial mass for Vial "H4" was recorded as 12.3945 g.  This is 1 g lower than any other vial and results in an unreasonable value for the CPOM masses in the sample.
+
+#### Action taken for the issue
+
+I entered the Vial mass for "H4" as 13.3945 g, which is consistent with the other vials.
 
 ## Variables
 
